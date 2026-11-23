@@ -1,0 +1,42 @@
+# ===== Gradle =====
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+build-log.txt
+
+# ===== 运行目录（开发时 runClient 生成的）=====
+run/
+*.log
+logs/
+
+# ===== IDE =====
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.classpath
+.project
+bin/
+out/
+
+# ===== 系统 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== 临时文件 =====
+*.tmp
+*.bak
+*.orig
+*.rej
+*~
+
+# ===== 开发期截图（自检产物）=====
+run/shots/
+shots/
+screenshots/
+
+# ===== 本地配置（含个人路径，不入库）=====
+config/

@@ -1,0 +1,21 @@
+{
+  "key.categories.datapack_items": "数据包物品页",
+  "key.datapack_items.open": "打开数据包物品页",
+  "screen.datapack_items.title": "数据包物品",
+  "label.datapack_items.root": "根目录",
+  "label.datapack_items.count": "%s 件",
+  "message.datapack_items.hint": "左键拿取 · 右键复制 · R 重扫",
+  "message.datapack_items.loading": "正在扫描本地数据包…",
+  "message.datapack_items.waiting_server": "正在向服务端要数据包物品…",
+  "message.datapack_items.none": "本地没找到 give 物品。连别人服时需在 config 的 extraPackDirs 指向数据包",
+  "message.datapack_items.none_server": "服务端没有 give 物品。检查 function/item/give 或本模组的 givePrefixes",
+  "message.datapack_items.empty_group": "这个分类里没有物品",
+  "message.datapack_items.no_permission": "需要 OP 权限（等级 2）才能查看和拿取",
+  "message.datapack_items.missing": "数据包里找不到这条物品：%s",
+  "message.datapack_items.broken": "这条 give 解析失败：%s",
+  "message.datapack_items.received": "已获得 %s × %s",
+  "message.datapack_items.copied": "已复制 /function %s",
+  "tooltip.datapack_items.pack_count": "%s 件物品 · %s 个分类",
+  "tooltip.datapack_items.broken": "无法解析这一条 give",
+  "tooltip.datapack_items.take": "左键：拿一份"
+}

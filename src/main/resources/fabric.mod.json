@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "datapack_items",
+  "version": "${version}",
+  "name": "Datapack Item Panel",
+  "description": "Shows the items registered by give functions under function/item/give as a creative-inventory-like page. Install on the client for local datapacks; install on the server too and it will show the items of the datapacks the SERVER actually loaded.",
+  "authors": [
+    "guying"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+  "license": "MIT",
+  "icon": "assets/datapack_items/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.datapackitems.DataPackItems"
+    ],
+    "client": [
+      "com.datapackitems.client.DataPackItemsClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

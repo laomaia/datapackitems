@@ -1,0 +1,21 @@
+{
+  "key.categories.datapack_items": "Datapack Item Panel",
+  "key.datapack_items.open": "Open Datapack Item Panel",
+  "screen.datapack_items.title": "Datapack Items",
+  "label.datapack_items.root": "Root",
+  "label.datapack_items.count": "%s items",
+  "message.datapack_items.hint": "Left click to take · Right click to copy · R to rescan",
+  "message.datapack_items.loading": "Scanning local datapacks…",
+  "message.datapack_items.waiting_server": "Requesting datapack items from server…",
+  "message.datapack_items.none": "No give items locally. On someone else's server, point extraPackDirs at the datapack",
+  "message.datapack_items.none_server": "Server has no give items. Check function/item/give or givePrefixes",
+  "message.datapack_items.empty_group": "No items in this category",
+  "message.datapack_items.no_permission": "Requires OP permission level 2",
+  "message.datapack_items.missing": "Item not found in datapacks: %s",
+  "message.datapack_items.broken": "This give command failed to parse: %s",
+  "message.datapack_items.received": "Received %s x %s",
+  "message.datapack_items.copied": "Copied /function %s",
+  "tooltip.datapack_items.pack_count": "%s items · %s categories",
+  "tooltip.datapack_items.broken": "This give command cannot be parsed",
+  "tooltip.datapack_items.take": "Left click: take one"
+}
