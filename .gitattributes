@@ -1,0 +1,19 @@
+# 统一换行符处理：避免 Windows 提交时把 LF 全改成 CRLF，
+# 在 GitHub 上显示成"整个文件都改了"。
+* text=auto eol=lf
+
+# Java / Gradle / 文本：强制 LF
+*.java    text eol=lf
+*.gradle  text eol=lf
+*.json    text eol=lf
+*.md      text eol=lf
+*.properties text eol=lf
+*.gitignore text eol=lf
+
+# Windows 批处理必须是 CRLF，否则在某些环境跑不起来
+*.bat     text eol=crlf
+
+# 二进制文件：不做换行符转换
+*.jar     binary
+*.png     binary
+*.zip     binary
